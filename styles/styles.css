@@ -146,7 +146,8 @@ body {
 
 .contact-section-instruments {
 	color: #A8A8A8;
-	padding-left: 10px;
+	padding-left: 3px;
+	text-decoration: none;
 }
 
 /*Skills section*/
