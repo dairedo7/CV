@@ -35,11 +35,23 @@
 			<div class="my-projects-section">
 				<h3 class="main-titles">Projects experience</h3>
 				<ol class="links-list lists-container">
+					<li class="list-marker"><a class="links" href="https://dairedo7.github.io/phonebook-sign-up-form">Phonebook
+						</a>
+						<a class="links--underlined" href="https://github.com/dairedo7/phonebook-sign-up-form">LINK</a>
+						<span><b>[</b> JavaScript, Axios, Pagination, Infinite Scroll, Parcel, HTML/CSS <b>]</b></span>
+						</br>
+						<span class="project-item-second">The project contains the phonebook, which is designed to save contacts - their names and phones, which are also stored in the DB and uploaded on the cloud service (Heroku). To implement the retrieving of the data from the DB the createAsyncThunk data fetching API was used. 
+							Redux Store is changed according to the state defined by Reducer: the actions received using dispatch hook in App, Filter and ContactItem components change their properties' state after which the render takes place.
+							Selector hook, on the other hand, takes the state from the Redux Store and returns the data stored in properties' state as a value in App, ContactList and Filter components. This way, it also provides an opportunity for storing values inside a variable within the scope of their functional components instead of passing down them as props.
+							CSSTransition and TransitionGroup components were used to manage the animations for headers as well as for contacts items being added to ContactList component.
+						</span>
+					</li>
+					
 					<li class="list-marker"><a class="links" href="https://dairedo7.github.io/filmoteka">Filmoteka
 						Project
 						</a>
 						<a class="links--underlined" href="https://github.com/dairedo7/filmoteka">LINK</a>
-						<span><b>[</b> JavaScript, Axios, Pagination, Infinite Scroll, Parcel, HTML/CSS <b>]</b></span>
+						<span><b>[</b> React, Redux/Redux-toolkit, DB, Axios, Parcel, HTML/CSS <b>]</b></span>
 						</br>
 						<span class="project-item-second">This web-application contains the implementation of all essential
 							and relevant JavaScript instruments(read more in the <a class="project-link--gh" href="https://github.com/dairedo7/filmoteka#readme">READ.me file of the project's github page</a>).
@@ -49,6 +61,7 @@
 							the logic of HTTP requests as well as markup for this purpose, were also developed by me.
 							Role: Team-Leader, developer of Infinite Scroll, search buttons placed on the main page of the application</span>
 					</li>
+
 					<li class="list-marker"><a class="links" href="https://dairedo7.github.io/icecream/">ICE-CREAM
 							PROJECT
 						</a>
@@ -59,14 +72,6 @@
 							responsibilites included developing and providing the proper functioning of the header and
 							hero sections.
 							Role: Scrum-Master, developer of header and hero sections</span>
-					</li>
-					<li class="list-marker"><a class="links"
-							href="https://dairedo7.github.io/web-studio/">WEB-STUDIO</a>
-						<a class="links--underlined" href="https://github.com/dairedo7/web-studio">LINK</a>
-						<span class="project-item-first"><b>[</b> HTML 5, CSS3<b>]</b></span>
-						</br>
-						<span class="project-item-second">A responsive wed-page layout, which applies all best practices
-							taken from BEM methodology. Role: Solo Developer</span>
 					</li>
 					<li class="list-marker"><a class="links"
 							href="https://dairedo7.github.io/barbershop/">BARBERSHOP</a>
@@ -94,8 +99,27 @@
 				<!--   Company nr.1   -->
 
 				<div>
+					<h4 class="subheader">Web Developer <span class="company-names">Modvise</span></h4>
+					<p class="subheaders-dates">June 2022<span class="v-line">|</span> Poland</p>
+
+					<ul class="lists-container">
+						<li class="list-marker">Working with developing SLA with JS, React, HTMl/CSS
+						</li>
+						<li class="list-marker">Writing and deploying web-applications on node.js 
+						</li>
+						<li class="list-marker">Developing the ability to google the most relevant information quickly to
+							solve the respective issues and finish the project or solve the bug problem
+						</li>
+						<li class="list-marker">Taking care of the urgent tasks, which have to be handled during the short deadlines
+						</li>
+					</ul>
+				</div>
+				<!--   Company nr.1   -->
+
+				<!--   Company nr.2   -->
+				<div>
 					<h4 class="subheader">IT Analyst <span class="company-names">HCL Technologies</span></h4>
-					<p class="subheaders-dates">April 2022 <span class="v-line">|</span> Poland</p>
+					<p class="subheaders-dates">April 2022 - June 2022 <span class="v-line">|</span> Poland</p>
 
 					<ul class="lists-container">
 						<li class="list-marker">Setting up computers(laptops and desktop PC's) and cash-registers for the 
@@ -114,6 +138,7 @@
 				</div>
 				<!--   Company nr.2   -->
 
+				<!--   Company nr.3   -->
 				<div>
 					<h4 class="subheader">HR Manager <span class="company-names">Bosetti Global Consulting</span></h4>
 					<p class="subheaders-dates">May 2021 - October 2021 <span class="v-line">|</span> Poland</p>
@@ -150,6 +175,7 @@
 						</li>
 					</ul>
 				</div>
+				<!--   Company nr.3   -->
 
 			</div>
 
@@ -215,8 +241,12 @@
 					<li><span class="skills-list-text">Npm package manager</span>
 					</li>
 					<li><span class="skills-list-text">JavaScript</span>
-					</li>
+			  		</li>
 					<li><span class="skills-list-text">React</span>
+					</li>		
+					<li><span class="skills-list-text">Node.js</span>
+					</li>
+					<li><span class="skills-list-text">MongoDB</span>
 					</li>
 					<li><span class="skills-list-text">Scrum</span>
 					</li>
