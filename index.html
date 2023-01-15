@@ -45,8 +45,6 @@
                             </br>
                             <span class="project-item-second">
                                 The project contains the phonebook, which is designed to save contacts - their names and phones, which are also stored in the DB and uploaded on the cloud service (Heroku). To implement the retrieving of the data from the DB the createAsyncThunk data fetching API was used. 
-							Redux Store is changed according to the state defined by Reducer: the actions received using dispatch hooks in App, Filter and ContactItem components change their properties' state after which the render takes place.
-							Selector hook, on the other hand, takes the state from the Redux Store and returns the data stored in properties' state as a value in App, ContactList and Filter components. This way, it also provides an opportunity for storing values inside a variable within the scope of their functional components instead of passing down them as props.
 							CSSTransition and TransitionGroup components were used to manage the animations for headers as well as for contacts items being added to ContactList component.
                             </span>
                         </li>
