@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: #f5f7fa;
 }
 
@@ -141,7 +141,8 @@ body {
 
 .profile-img {
   display: block;
-  /* height:450px; */
+  width: 370px;
+  height: 352px;
 }
 
 /*Contacts*/
